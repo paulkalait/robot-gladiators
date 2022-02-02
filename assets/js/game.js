@@ -20,7 +20,7 @@ console.log(enemyNames[3]);
 //fight function
 var fight = function(enemyName) {
    while(playerHealth > 0 && enemyHealth > 0) {
-       //place fight function code block here . . .
+       // ask player if they'd likr yo fight or run
     var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
 
     //if player picks "skip" confirm and then stop the loop
